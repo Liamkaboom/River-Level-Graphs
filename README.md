@@ -8,7 +8,9 @@ Following some research, pandas appeared to be the best library to work with mat
 
 Please bare in mind that this monitoring station can only go up to 2.3m (Hence 3 days of that max level in January 2025). The estimated river level at the time of flooding was 3.192m (see PDF in repo for EA analysis of the flooding) - Nearly 1m higher than the station in Boston can reach.
 
-This is version 1 of this mini project - more will be coming at later dates.
+UPDATE 2: Added RecentLevels.py - Found out how to access the latest levels from the stationm, in JSON format. This program allows you to select 2 recent dates and see the river levels inbetween.
+
+This is verion 2 of this mini project - more will be coming at later dates.
 
 **© @BostonWeatherUK 2026**
 This project completely free to use and modify, but with credit to *@BostonWeatherUK*.
