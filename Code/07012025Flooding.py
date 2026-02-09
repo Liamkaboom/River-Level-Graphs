@@ -13,6 +13,7 @@ filteredDf = df[(df["date"] >= startDate) & (df["date"] <= endDate)]  # Goes thr
 plt.title("South Forty Foot Drain River Level at Boston Black Sluice - January 2025 Flood")
 plt.xlabel("Date")
 plt.ylabel("Maximum River Level (m)")
+plt.text(0.02, 0.02, "Data: RiverLevels.uk. Graph produced by @BostonWeatherUK.", transform = plt.gca().transAxes)
 plt.grid(color = "green", linestyle = "--", linewidth = 0.5)  # Sets the grid up. Thin green dashed lines on both axis.
 plt.plot(filteredDf["date"], filteredDf["max_level"], marker="o") # Plots the points on the graph with a circle marker.
 

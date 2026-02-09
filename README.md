@@ -1,6 +1,6 @@
 # South Forty Foot Drain Boston (Black Sluice) - River Level Graphs
 
-A python program to visualise daily maximum River Levels at the South Forty Foot drain in Boston. (Well, in theory any type of .csv data).
+A python project to visualise daily maximum River Levels at the South Forty Foot drain in Boston.
 
 This simple project was created because I was bored, and the South Forty Foot Drain in Boston having flooded back in January 2025 - this could prove to be quite useful.
 

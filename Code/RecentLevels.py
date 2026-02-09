@@ -22,6 +22,7 @@ filteredDf = df[(df["dateTime"] >= startDate) & (df["dateTime"] <= endDate)]  # 
 plt.title("South Forty Foot Drain River Level at Boston Black Sluice") 
 plt.xlabel("Date")
 plt.ylabel("River Level (m)")
+plt.text(0.02, 0.02, "Data: Environment Agency. Graph produced by @BostonWeatherUK.", transform = plt.gca().transAxes)
 plt.grid(color = "green", linestyle = "--", linewidth = 0.5)  # Sets the grid up. Thin green dashed lines on both axis.
 plt.axhline(y = 2.3, color = "red", linestyle ="-", label = "Flooding Possible above this level") # Shows on the graph what level (2.3m) and above flooding is possible at.
 plt.legend()
